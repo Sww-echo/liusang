@@ -56,4 +56,6 @@
 8. git fetch origin test 更新代码到本地，不会合并到当前分支
 9. git merge FETCH_HEAD 把 FETCH_HEAD 合并到当前分支
 
-### 添加协作者
+### git 忽略列表
+
+1. 新建.gitignore 文件，列出需要忽略的列表
