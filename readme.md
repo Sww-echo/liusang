@@ -43,3 +43,10 @@
 1. git clone 适用于本地没项目，直接从远程克隆到本地（整个版本库克隆下来）
 2. git pull 本地没有，直接从远程更新到本地
 3.
+
+### 分支操作
+
+1. git branch 查看本地所有分支（git branch -r 查看远程分支）
+2. git branch test 创建 test 分支（test 为分支名）
+3. git checkout test 切换到 test 分支
+4. 切换分支后，工作区的代码自动切换到对应分支的代码
