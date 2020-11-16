@@ -49,4 +49,5 @@
 1. git branch 查看本地所有分支（git branch -r 查看远程分支）
 2. git branch test 创建 test 分支（test 为分支名）
 3. git checkout test 切换到 test 分支
-4. 切换分支后，工作区的代码自动切换到对应分支的代码
+4. 未提交到本地仓库切换不了分支，切换分支后，工作区的代码会自动切换到对应分支的代码
+5. git merge test 把 test 分支合并到当前分支
