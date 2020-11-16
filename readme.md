@@ -37,4 +37,3 @@
    get push 把本地仓库推送到远程仓库
    -u origin master 设置默认提交主分支 master 到 origin（设置一次，下次直接 Git push 就行）
 4. git push origin 分支名 提交到其他分支
-123456789
