@@ -52,4 +52,6 @@
 4. 未提交到本地仓库切换不了分支，切换分支后，工作区的代码会自动切换到对应分支的代码
 5. git merge test 把 test 分支合并到当前分支
 6. git branch -d test 删除 test 分支
-12345678910
+7. git pull origin test 更新代码到本地，会自动合并到当前分支
+8. git fetch origin test 更新代码到本地，不会合并到当前分支
+9. git merge FETCH_HEAD 把 FETCH_HEAD 合并到当前分支
