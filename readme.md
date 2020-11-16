@@ -37,4 +37,9 @@
    get push 把本地仓库推送到远程仓库
    -u origin master 设置默认提交主分支 master 到 origin（设置一次，下次直接 Git push 就行）
 4. git push origin 分支名 提交到其他分支
-123456789
+
+### 下载项目到本地
+
+1. git clone 适用于本地没项目，直接从远程克隆到本地（整个版本库克隆下来）
+2. git pull 本地没有，直接从远程更新到本地
+3.
