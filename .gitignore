@@ -1,2 +1,3 @@
 # 忽略列表，不需要提交到版本库的文件及目录
 node_modules/
+.gitignore
