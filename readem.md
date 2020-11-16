@@ -23,3 +23,16 @@
 
 1. git status 查看当前目录的操作状态
 2. git reflog 查看简易版日志
+
+### 版本回退
+
+1. git reset --hard HEAD^ 退回到上一个版本
+2. git reset --hard 1818181 退回到置顶版本
+
+### 将本地仓库提交到远程仓库
+
+1. git remote add origin https://github.com/Sww-echo/liusang.git 本地仓库和远程仓库关联
+2. git remote -v 查看本地仓库关联
+3. git push -u origin master
+   get push 把本地仓库推送到远程仓库
+   -u origin master 设置默认提交主分支 master 到 origin（设置一次，下次直接 Git push 就行）
